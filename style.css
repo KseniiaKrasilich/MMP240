@@ -6,7 +6,7 @@ body{
 	
 }
 #bodyback{
-	margin-top: -20px;
+	
 	width: 70%;
 	margin: 0 auto;
 	 font-size: 1.5em
@@ -40,9 +40,11 @@ a:visited{
 }
 footer{
 	position: fixed;
-	width: 100%;
+	height: 2em;
+	width: 70%;
 	background: linear-gradient(to bottom right, #feb47b, #ff7e5f);
 	color:white;
-	
+	text-align: center;
+	margin: 0 auto;
 
 }
