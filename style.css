@@ -38,3 +38,10 @@ a:link {
 a:visited{
 	color: black;
 }
+footer{
+	position: center;
+	font-family: 'EB Garamond', serif;
+	font-size: 1em;
+   color: #ff7e5f;
+
+}
