@@ -18,7 +18,8 @@ ul{
 	list-style-type: none;
 }
 h1{
-
+	padding-top: 0.8em;
+text-align: right;
 	height: 2em;
 	background: linear-gradient(to bottom right, #feb47b, #ff7e5f);
 	
@@ -41,15 +42,25 @@ a:visited{
 }
 a{
 	color: black;
+
 }
 
 footer{
+	margin-top: 100px;
+	float:right;
 	
 	height: 2em;
 	/*width: 70%;*/
 	background: linear-gradient(white,#feb47b);
 	
-	text-align: center;
-	/*margin: 0 auto;*/
+
+
+    border: none;
+    color: white;
+    padding: 8px 26px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    font-size: 18px;
 
 }
