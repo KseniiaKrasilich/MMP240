@@ -6,6 +6,7 @@ body{
 	
 }
 #bodyback{
+	height: 100%;
 	
 	width: 70%;
 	margin: 0 auto;
@@ -38,15 +39,16 @@ a:link {
 a:visited{
 	color: black;
 }
-a{ 
-	color: white;
- }
+a{
+	color: black;
+}
+
 footer{
 	
 	height: 2em;
 	/*width: 70%;*/
-	background: linear-gradient(to bottom right, #ff7e5f,#feb47b);
-	color:white;
+	background: linear-gradient(white,#feb47b);
+	
 	text-align: center;
 	/*margin: 0 auto;*/
 
