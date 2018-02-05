@@ -38,13 +38,16 @@ a:link {
 a:visited{
 	color: black;
 }
+a{ 
+	color: white;
+ }
 footer{
-	position: fixed;
+	
 	height: 2em;
-	width: 70%;
-	background: linear-gradient(to bottom right, #feb47b, #ff7e5f);
+	/*width: 70%;*/
+	background: linear-gradient(to bottom right, #ff7e5f,#feb47b);
 	color:white;
 	text-align: center;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 
 }
