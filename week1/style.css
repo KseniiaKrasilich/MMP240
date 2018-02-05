@@ -1,0 +1,20 @@
+body{
+	background:url(img/dis1535-qd-disney.jpg) no-repeat center center fixed;
+ font-family: 'Rammetto One', cursive;
+ background-size: cover;
+ font-size: 2em;
+
+}
+h1{
+	padding-top: 30%;
+	text-align: center;
+	color: white;
+	
+	text-shadow: 2px 2px #4B0082;
+
+}
+p{
+	
+	text-align: center;
+	
+}
