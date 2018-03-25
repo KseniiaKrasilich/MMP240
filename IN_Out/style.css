@@ -1,0 +1,166 @@
+body{
+  color: Black;
+  width: 70%;
+  margin: 0 auto;
+
+}
+.imgbg{
+  background:url(lilly-rum-250927-unsplash.jpg) no-repeat center center fixed;
+background-size: cover;
+
+
+}
+
+header{
+
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+footer{
+
+  background-color: orange;
+  height: 150px;
+ clear: both;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e363b ;
+
+}
+li {
+    float: left;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #EF6968;
+}
+h1{
+  padding-top: 15px;
+  text-align: center;
+
+}
+ h2 {
+  padding-top: 15%;
+  text-align: center;
+  color: #EF6968;
+}
+.imgbg p{
+  padding-top: 40%;
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 1.2em;
+
+}
+h4{
+  font-size: 2em;
+  padding-top: 15px;
+  text-align: center;
+  color: #EF6968;
+}
+h5{
+  text-align: center;
+
+}
+.column {
+    float: left;
+    width: 48%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+    display: flex;
+    padding: 1%;
+}
+
+.column {
+    flex: 48%;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+.column {
+    float: left;
+}
+
+.left {
+    width: 23%;
+}
+
+.right {
+    width: 73%;
+    }
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #EF6968;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #EF6968;
+   color: white;
+   text-align: center;
+}
+.footer p {
+  font-size:0.7em;
+}
