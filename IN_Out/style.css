@@ -24,7 +24,9 @@ footer{
   height: 150px;
  clear: both;
 }
-
+h4 {
+  font-family: 'Permanent Marker', cursive;
+}
 
 
 ul {
