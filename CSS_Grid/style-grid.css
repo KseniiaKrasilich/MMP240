@@ -1,0 +1,87 @@
+/**
+ * The primary stylesheet for the CSS Grid Playground.
+ * This sheet pulls in surrounding components allowing you to focus on specifics.
+ */
+
+/* Components */
+@import url('CSS/reset.css');
+@import url('CSS/accessibility.css');
+@import url('CSS/layout.css');
+@import url('CSS/typography.css');
+@import url('CSS/masthead.css');
+@import url('CSS/boxes.css');
+
+/* CSS Grid Playground */
+.the-grid{
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 200px;
+
+  /* grid-template-rows: 1fr 3fr repeat(4, 1fr); */
+   grid-template-areas:
+  "header"
+  "aside"
+"aside"
+  "article"
+  "section"
+  "footer";
+}
+@media screen and (min-width: 600px){
+  .the-grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 200px 200px;
+    grid-template-areas:
+
+    "header header"
+    "aside article "
+    "section section "
+    "footer footer";
+  }
+
+  }
+  @media screen and (min-width: 900px){
+  .the-grid{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px 200px 200px;
+    grid-template-areas:
+    "header header header"
+    "aside section article "
+    "section1 article1 aside1"
+    "footer footer footer";
+
+  }
+
+}
+  .blue{
+    grid-area: header;
+  }
+  .purple{
+    grid-area: aside;
+  }
+  .green{
+    grid-area: article;
+  }
+
+  .yellow{
+    grid-area: section;
+  }
+  .orange{
+    grid-area: article1;
+
+  }
+  .red{
+      grid-area:section1;
+  }
+  .slate{
+    grid-area: aside1;
+  }
+  .lineblue
+  {
+    grid-area:footer;
+  }
