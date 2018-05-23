@@ -1,0 +1,345 @@
+.navbar-nav{
+  margin-left: 35em;
+  margin-top: 3em;
+
+  font-size: 1.2em;
+}
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+.about{
+     font-family: 'Abril Fatface', cursive;
+     background:url(background_home.jpg) no-repeat center center fixed;
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+   }
+h1{
+  margin-top: 40em;
+  text-align: center;
+
+}
+.myself p{
+  font-family: 'Alike', serif;
+
+}
+.myself h2{
+  font-family: 'Mrs Saint Delafield', cursive;
+}
+.myself{
+  margin-top: 15em;
+  float: right;
+  width: 50%;
+}
+/*  resume page*/
+.resume{
+    background:url(back_resume_correct.jpg) no-repeat center center fixed;
+    font-family: 'Abril Fatface', cursive;
+     text-align: center;
+     width: 80%;
+     margin: 0 auto;
+   }
+   .paper{
+
+     background-image: url('paralex.jpg');
+    height: 1000px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+   }
+   .footer {
+
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: black;
+    text-align: right;
+   }
+   .button {
+       background-color:inherit;
+       border: ;
+       color: black;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+   }
+   footer a{
+     text-decoration: none;
+   }
+   footer a:visited {
+       color: black;
+   }
+   .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+.fa-facebook {
+  /* background: #3B5998; */
+  color: black;
+}
+.fa-instagram {
+  /* background: #125688; */
+  color: black;
+}
+.fa-linkedin {
+  /* background: #007bb5; */
+  color: black;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.footer h3{
+  text-align: center;
+  font-size: 0.7em;
+font-family: 'Alike', serif;
+}
+.resume{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+/* work page */
+.work{
+
+background:url(back_contact.jpg) no-repeat center center fixed;
+  font-family: 'Abril Fatface', cursive;
+   text-align: center;
+   width: 80%;
+   margin: 0 auto;
+}
+.row{
+  margin-top: 3em;
+}
+.work h1{
+  font-size: 1.7em;
+}
+.work p {
+    color: black;
+}
+.col{
+  margin-bottom: 20px;
+}
+
+/* image */
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #fbf7f5;
+  /* background-color: #4CAF50; */
+  color: black;
+  font-size:1.1em;
+  padding: 16px 32px;
+}
+.container{
+  transition: transform .2s;
+}
+.container:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+.container2{
+  transition: transform .2s;
+}
+.container2:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+/* bitmap */
+.bitmap {
+  font-family: 'Abril Fatface', cursive;
+
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+}
+.bitmap h4{
+  font-family: 'Alike', serif;
+  font-size: 1em;
+}
+.bitmap h1{
+  font-size: 1.7em;
+}
+/* beerpage */
+.beer{
+  font-family: 'Abril Fatface', cursive;
+
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+}
+.beer h4{
+  font-family: 'Alike', serif;
+  font-size: 1em;
+}
+.beer h1{
+  font-size: 1.7em;
+}
+/* poster */
+.poster{
+     font-family: 'Abril Fatface', cursive;
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+}
+.poster h4{
+  font-family: 'Alike', serif;
+  font-size: 1em;
+}
+.poster h1{
+  font-size: 1.7em;
+}
+
+/* poster gallery */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.contentposter{
+  width: 90%;
+  margin: 0 auto;
+
+}
+/* contact page */
+.contact{
+  font-family: 'Abril Fatface', cursive;
+  background:url(back_contact2.jpg) no-repeat center center fixed;
+
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+}
+.contact h1{
+  margin-top: 3em;
+ color: #fffff4;
+text-shadow: 3px 3px 	#C0C0C0;
+
+}
+.contact p a{
+  text-shadow: 3px 3px 	#C0C0C0;
+}
+.contact p{
+  font-size: 1.2em;
+  color: black;
+
+}
+.button1 {
+    background-color: inherit;
+    border: 1px solid #fffff4;
+    color: #fffff4;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 a{
+   text-decoration: none;
+}
+.button1 a:hover {
+  color: black;
+}
+.mobilesOnly{
+  color: 	#23231e;
+}
+/* resume jump */
+.paper:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+/* carusel */
+.carusel{
+  background:url(background.jpg) no-repeat center center fixed;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+ h8{
+  color: black;
+  font-family: 'Alike', serif;
+}
+#carouselExampleFade{
+  margin-top: 2em;
+  margin-bottom: 6em;
+}
+.carusel2{
+  background:url(beerup.jpg) no-repeat center center fixed;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.carusel3{
+  background:url(clips.jpg) no-repeat center center fixed;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.carusel4{
+  background:url(background2.jpg) no-repeat center center fixed;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
